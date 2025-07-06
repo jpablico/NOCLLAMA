@@ -1,0 +1,19 @@
+Run the virtual env
+-> source .venv/bin/activate
+--> .venv should run by either showing (.venv or NOCLLAMA)
+
+Starting Ollama Server on MacOS
+-> ollama serve
+Should return
+- Ollama server listening on ...
+ --> In a new terminal run:
+      -> ollama run mistral
+You should see a msg like "Listening on 127.0.0.1:11434 (version 0.9.5)
+
+On another separate terminal that is cd into NOCLLAMA, run:
+-> python rag_assistant.py
+
+To exit, type:
+-> exit
+
+Make sure to close out Ollama to save computer resources.
