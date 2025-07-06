@@ -1,0 +1,7 @@
+# Private paths
+.env
+config.yaml
+/docs/
+chroma/
+__pycache__/
+*.sqlite
