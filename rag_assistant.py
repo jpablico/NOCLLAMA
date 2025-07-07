@@ -8,11 +8,9 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.core import Settings
 import chromadb
 
-# Load .env
 load_dotenv()
 DATA_PATH = os.getenv("DATA_PATH", "./docs")
 
-# Configure embedding model
 embedding_model = HuggingFaceEmbedding(model_name="all-MiniLM-L6-v2")
 Settings.embed_model = embedding_model
 
