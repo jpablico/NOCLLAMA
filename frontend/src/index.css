@@ -8,3 +8,21 @@
 @keyframes blink {
   50% { opacity: 0; }
 }
+
+.markdown-content ol,
+.markdown-content ul {
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  list-style-position: inside;
+}
+
+.markdown-content li {
+  margin-bottom: 0.25rem;
+  padding: none;
+}
+
+.markdown-content p {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}

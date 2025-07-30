@@ -1,6 +1,7 @@
 Run the virtual env
 -> source .venv/bin/activate
 --> .venv should run by either showing (.venv or NOCLLAMA)
+---> uvicorn main:app --reload (This should run FastAPI and hook the frontend)
 
 Starting Ollama Server on MacOS
 -> ollama serve
