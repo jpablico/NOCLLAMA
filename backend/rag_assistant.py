@@ -50,7 +50,7 @@ storage_context = StorageContext.from_defaults(
 
 # LLM & ServiceContext
 embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-small-en-v1.5")
-llm = Ollama(model="mistral", request_timeout=120)
+llm = Ollama(model="mixtral", request_timeout=120)
 
 Settings.llm = llm
 Settings.embed_model = embed_model
